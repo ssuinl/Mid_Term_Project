@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Suin</title>
+    <style>
+       body {
+            background: linear-gradient(to bottom, #f2f2f2, #e8dbee);
+            text-align: center;
+        }
+
+        h1 {
+            color: #9c3ca8;
+            font-size: 5rem;
+            font-family: 'Noto Sans KR', sans-serif;
+            background: -webkit-linear-gradient(#fff, #c77ac4); /* 그라데이션을 h1 요소의 배경 색상으로 설정합니다 */
+            -webkit-background-clip: text; /* 텍스트에만 그라데이션을 적용합니다 */
+            margin-top: 10px;
+        }
+
+        img {
+            width: 500px; /* 이미지 크기를 설정합니다 */
+            border-radius: 25%; /* 원형으로 이미지를 만들기 위해 border-radius 속성을 사용합니다 */
+            margin-top: 30px; /* 이미지와 제목 사이의 간격을 조절합니다 */
+        }
+        
+        nav {
+            background-color: #4d0453;
+            color: #fff;
+            padding: 13px;
+        }
+
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: space-around;
+        }
+
+        nav li {
+            margin: 0 10px;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            font-family: 'Noto Sans KR', sans-serif; /* 글자체 변경 */
+      background-color: #4d0453; /* 배경색 추가 */
+      padding: 13px; /* 패딩 추가 */
+    }
+    nav a:hover {
+      color: #ff4081; /* 호버 시 글자색 변경 */
+      text-decoration: undrline; /* 호버 시 밑줄 추가 */
+    }
+</style>
+</head>
+<style>
+    #About-Me {
+        background-color: #ffffff;
+        padding: 40px 0;
+    }
+
+    #About-Me h2 {
+        text-align: center;
+        color: #470853;
+        font-family: 'Noto Sans KR', sans-serif;
+        font-size: 50px;
+        font-weight: bold;
+        margin-bottom: 20px;
+    }
+
+    #About-Me p {
+        color: #855488;
+        font-size: 20px;
+        font-weight: bold;
+        margin-bottom: 10px;
+    }
+
+    .container {
+        max-width: 960px;
+        margin: 0 auto;
+        padding: 0 20px;
+    }
+</style>
+<body>
+    <nav>
+        <ul>
+            <li><a href="#Home">Home</a></li>
+            <li><a href="#About-Me">About Me</a></li>
+            <li><a href="#Skills">Skills</a></li>
+            <li><a href="#Contact">Contact</a></li>
+        </ul>
+    </nav>
+    
+    <div class="container">
+        <img src="Profile.jpg" alt="profile picture">
+        <h1>Suin Lee</h1>
+    </div>
+    
+    <section id="About-Me">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>name: 이수인</p>
+            <p>age: 22세</p>
+            <p>birth: 2002. 05. 17</p>
+            <p>major: 정보통계학과</p>
+        </div>
+    </section>
+
+
+    <section id="Skills">
+        <h2>Skills</h2>
+        <p>...</p>
+    </section>
+
+    <section id="Contact">
+        <h2>Contact</h2>
+        <p>...</p>
+    </section>
+</body>
+</html>
